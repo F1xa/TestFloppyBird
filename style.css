@@ -6,7 +6,14 @@
   box-sizing: border-box;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 canvas {
-  width: 800px;
-  height: 800px;
+  width: 600px;
+  height: 600px;
+
+  color: rgb(144, 238, 164);
 }
